@@ -5,6 +5,7 @@
 sudo apt update
 sudo apt install -y firewalld
 git clone   https://github.com/crunchy-devops/jenkins-pic.git
+cd jenkins-pic
 chmod +x evict_malware.sh
 ```
 
@@ -36,6 +37,7 @@ ansible-playbook -i inventory_for_ubuntu install_docker_ubuntu.yml --limit local
 cd
 cd jenkins-pic
 source venv/bin/activate
+docker ps
 ```
    
  

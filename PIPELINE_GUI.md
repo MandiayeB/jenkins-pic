@@ -54,7 +54,7 @@ Refresh the screen so you can check if the url is ticked in green.
 ## Configure the webhook in Jenkins  
 Go to jenkins and configure hello-world-maven    
 in Build Triggers , Check Github hook trigger for GITScm polling 
-Press apply and save  
+Press apply and save
 
 ## Restart the Jenkins Pipeline automatically 
 Go to the Jenkins pipeline graph, the refresh should be enabled  
